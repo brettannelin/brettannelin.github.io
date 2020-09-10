@@ -13,6 +13,8 @@
 .topnav {
     background-color: var(--forthColor);
     overflow: hidden;
+    width: auto;
+    /*border-radius: 3rem;*/ /* rounded border*/
 }
 
 .topnav a {
@@ -35,7 +37,38 @@
     color: black;
 }
 
+ /*Projects */
+
+.projects {
+    /*background-color: var(--forthColor); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projects a {
+    color: black;
+    text-align: center;
+    background-color: var(--forthColor);
+    border-radius: 3rem; /* rounded border*/
+    font-size: 1.25rem;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.projects a:hover {
+    background-color: black;
+    color: rgb(122, 252, 144);
+}
+
+.projects a.active {
+    background-color: rgb(99, 243, 123);
+    color: black;
+}
+
 h1 {
     color: white;
     text-align: center;
 }
+
