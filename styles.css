@@ -55,6 +55,7 @@
     font-size: 1.25rem;
     text-decoration: none;
     padding: 1rem;
+    min-width: 25rem;
 }
 
 .projects a:hover {
