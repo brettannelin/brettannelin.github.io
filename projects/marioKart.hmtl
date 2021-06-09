@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../styles.css">
+</head>
 
+
+<div class="topnav">
+    <a href="../projects.html">back</a>
+</div>
+
+<body class="home">
+    
+    <h1>Android/iOS mobile Application </h1>
+    <div  class="middleText">
+        <body>
+            This is an application that I designed, built and distributed for a local non-profit organization in Marquette County.
+            The project was done as a volentary effort to help the Lake Superior Community Partnership jumpstart the 
+            economy after the damaging impacts of COVID-19. It was seen as an easy way to get some real development 
+            experience while also being able to help out my local community. <br><br><br>
+            
+            Specific Details:
+            <ul>
+                <li class='topic'>Platform:</li>
+                <li class='desc'> Flutter - Developed by Google for the creation of cross platform applications (namely iOS, Android, Web, and Desktop)</li>
+                <li class='topic'>Language:</li>
+                <li class='desc'> Dart - A Google developed object-oriented language with C-like syntax</li>
+                <li class='topic'>Database:</li>
+                <li class='desc'> Firebase - A databasing service offered by Google to handle both large file storage and data inquiry</li>
+                <li class='topic'>Authentification:</li>
+                <li class='desc'> Firebase Auth - A branch of Google's Firebase design specifically to handle user authentification</li>
+            </ul>
+
+            <div class="linkInfo">
+                <a href="https://appadvice.com/app/love-on-local-marquette-co/1525262823" target="_blank">Check out the app here!</a>
+            </div>
+
+        </body>
+    </div>
+
+</body>
