@@ -1,2 +1,3 @@
 # brettannelin.github.io
-My Personal Web-page
+This is now just for hosting pages to show to people
+Not personal at all

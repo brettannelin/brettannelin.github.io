@@ -1,15 +1,16 @@
 @import 'shared.css';
 
 .header{
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     width: 90%;
     height: 10%;
     margin-left: 5%;
-    border-bottom: 4px solid var(--secondary-color);
 }
 
 .header-content{
+    background-image: url("headerBackground.png");
     background-color: #fff;
     width: 100%;
     display: flex;
