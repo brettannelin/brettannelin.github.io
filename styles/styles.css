@@ -10,12 +10,16 @@
     background-color: var(--secondary-color);
 }
 
+#short {
+    height:100vh;
+}
+
 .content{
     background-color: #ffffff;
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     width: 90%;
     margin-left: 5%;
     margin-bottom: 0%;
@@ -24,21 +28,21 @@
 .content h1 {
     margin: 24px 0px 0px 15%;
     padding: 0px;
-    height: auto;
+    height: 100%;
 }
 
 .content h3 {
     margin: 48px 0px 0px 20%;
     padding: 0px;
     vertical-align: bottom;
-    height: auto;
+    height: 100%;
 }
 
 .paragraphs{
     margin: 12px 0px 0px 25%;
     padding: 0px;
     width: 50%;
-    height: auto;
+    height: 100%;
     padding-bottom: 24px;
     border-bottom: 2px solid lightgray;
 }
@@ -48,7 +52,7 @@
     margin: 12px 0px 0px 25%;
     padding: 0px;
     width: 50%;
-    height: auto;
+    height: 100%;
     padding-bottom: 24px;
     border-bottom: 4px solid lightgray;
 }
