@@ -1,16 +1,16 @@
 @import 'shared.css';
 
 .footer {
-    margin-top: 5%;
+    margin-top: 0;
     height: 3%;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     width:100%;
     display: flex;
     justify-content: center;
 }
 
 .footer h3{
-    background-color:  var(--primary-color);
+    background-color:  var(--secondary-color);
     color: #ffffff;
     padding: 1rem;
     width: 100%;
